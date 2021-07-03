@@ -162,14 +162,14 @@ class _MyAppState extends State<MyApp> {
                     children: [
                       Text(title,
                           style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 10)),
+                              fontWeight: FontWeight.bold, fontSize: 12)),
                       SizedBox(height: 5),
                       Text(
                         des,
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.grey,
-                            fontSize: 15),
+                            fontSize: 12),
                       ),
                       SizedBox(height: 5),
                     ],
@@ -266,7 +266,7 @@ class _MyAppState extends State<MyApp> {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
-                        fontSize: 15),
+                        fontSize: 12),
                   ),
                   SizedBox(
                     height: 5,
@@ -276,7 +276,7 @@ class _MyAppState extends State<MyApp> {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.grey,
-                        fontSize: 15),
+                        fontSize: 12),
                   )
                 ],
               ),
@@ -396,7 +396,7 @@ class _MyAppState extends State<MyApp> {
         child: Text(
           "CINEMA EXAMEN FINAL",
           style: TextStyle(
-              fontWeight: FontWeight.bold, color: Colors.black, fontSize: 20),
+              fontWeight: FontWeight.bold, color: Colors.white, fontSize: 20),
         ),
       ),
     );
